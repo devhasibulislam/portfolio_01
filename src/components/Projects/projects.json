@@ -3,14 +3,7 @@
         "_id": 1,
         "imgPath": "/projects/red-onion.jpeg",
         "title": "Red Onion",
-        "description": "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
+        "description": "It is foor ordering web application which simply route to route conjunction to interact with. Chasing a food product, selecting up quantity, adding to cart and finally complete order with no payment. It's free for you cause you are visiting here.",
         "link": "https://github.com/hasibulislam999/red-onion"
-    },
-    {
-        "_id": 2,
-        "imgPath": "/projects/bitsOfCode.png",
-        "title": "Bits-Of-Code",
-        "description": "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.",
-        "link": "https://github.com/soumyajit4419/Bits-0f-C0de"
     }
 ]
