@@ -9,7 +9,7 @@
     {
         "_id": 2,
         "imgPath": "/projects/doctors-portal.jpeg",
-        "title": "Red Onion",
+        "title": "Doctors Portal",
         "description": "It is doctors appointment based web application which simply construct with all need with a doctor and with a patient like making appointment with a doctor, choosing a time slot, approach that slot with legal time means remove that time for that day and after complete online appointment pay the doctor as his/her remuneration. And you get the treatment you want but respect of payment.",
         "link": "https://github.com/hasibulislam999/doctors-portal-client"
     }
