@@ -3,7 +3,14 @@
         "_id": 1,
         "imgPath": "/projects/red-onion.jpeg",
         "title": "Red Onion",
-        "description": "It is foor ordering web application which simply route to route conjunction to interact with. Chasing a food product, selecting up quantity, adding to cart and finally complete order with no payment. It's free for you cause you are visiting here.",
+        "description": "It is food ordering web application which simply route to route conjunction to interact with. Chasing a food product, selecting up quantity, adding to cart and finally complete order with no payment. It's free for you cause you are visiting here.",
         "link": "https://github.com/hasibulislam999/red-onion"
+    },
+    {
+        "_id": 2,
+        "imgPath": "/projects/doctors-portal.jpeg",
+        "title": "Red Onion",
+        "description": "It is doctors appointment based web application which simply construct with all need with a doctor and with a patient like making appointment with a doctor, choosing a time slot, approach that slot with legal time means remove that time for that day and after complete online appointment pay the doctor as his/her remuneration. And you get the treatment you want but respect of payment.",
+        "link": "https://github.com/hasibulislam999/doctors-portal-client"
     }
 ]
