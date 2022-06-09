@@ -20,6 +20,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -44,8 +45,29 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <AnimatedCursor
+          innerSize={12}
+          outerSize={12}
+          color='106, 13, 173'
+          outerAlpha={0.5}
+          innerScale={0.9}
+          outerScale={5}
+          clickables={[
+            'a',
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            'label[for]',
+            'select',
+            'textarea',
+            'button',
+            '.link'
+          ]}
+        />
         <Footer />
       </div>
     </Router>
