@@ -98,18 +98,18 @@ const Contact = () => {
                         </Row>
                     </Form>
                     <Row className='mt-5'>
-                        <Col md={12} className="home-about-social">
+                        <Col md={12} className="contact-about-social">
                             <h1>FIND ME ON</h1>
                             <p>
                                 Feel free to <span className="purple">connect </span>with me
                             </p>
-                            <ul className="home-about-social-links">
+                            <ul className="contact-about-social-links">
                                 <li className="social-icons">
                                     <a
                                         href="https://github.com/hasibulislam999"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+                                        className="icon-colour  contact-social-icons"
                                     >
                                         <AiFillGithub />
                                     </a>
@@ -119,7 +119,7 @@ const Contact = () => {
                                         href="https://twitter.com/hasibulislam999"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+                                        className="icon-colour  contact-social-icons"
                                     >
                                         <AiOutlineTwitter />
                                     </a>
@@ -129,7 +129,7 @@ const Contact = () => {
                                         href="https://www.linkedin.com/in/hasibulislam999/"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="icon-colour  home-social-icons"
+                                        className="icon-colour  contact-social-icons"
                                     >
                                         <FaLinkedinIn />
                                     </a>
@@ -138,7 +138,7 @@ const Contact = () => {
                                     <a href="tel:+8801906315901"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="icon-colour home-social-icons"
+                                        className="icon-colour contact-social-icons"
                                     >
                                         <AiOutlineWhatsApp />
                                     </a>
