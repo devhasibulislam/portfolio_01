@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiOutlineGoogle
+  AiOutlineWhatsApp
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -96,12 +96,12 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a href="mailto:hasib143sl@gmail.com"
+                <a href="tel:+8801906315901"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiOutlineGoogle />
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
             </ul>

@@ -4,6 +4,12 @@ import Particle from './Particle';
 import Title from './Title';
 import { AiOutlineFileDone } from "react-icons/ai";
 import emailjs from '@emailjs/browser';
+import {
+    AiFillGithub,
+    AiOutlineTwitter,
+    AiOutlineWhatsApp
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
@@ -91,6 +97,55 @@ const Contact = () => {
                             </Button>
                         </Row>
                     </Form>
+                    <Row className='mt-5'>
+                        <Col md={12} className="home-about-social">
+                            <h1>FIND ME ON</h1>
+                            <p>
+                                Feel free to <span className="purple">connect </span>with me
+                            </p>
+                            <ul className="home-about-social-links">
+                                <li className="social-icons">
+                                    <a
+                                        href="https://github.com/hasibulislam999"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="icon-colour  home-social-icons"
+                                    >
+                                        <AiFillGithub />
+                                    </a>
+                                </li>
+                                <li className="social-icons">
+                                    <a
+                                        href="https://twitter.com/hasibulislam999"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="icon-colour  home-social-icons"
+                                    >
+                                        <AiOutlineTwitter />
+                                    </a>
+                                </li>
+                                <li className="social-icons">
+                                    <a
+                                        href="https://www.linkedin.com/in/hasibulislam999/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="icon-colour  home-social-icons"
+                                    >
+                                        <FaLinkedinIn />
+                                    </a>
+                                </li>
+                                <li className="social-icons">
+                                    <a href="tel:+8801906315901"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="icon-colour home-social-icons"
+                                    >
+                                        <AiOutlineWhatsApp />
+                                    </a>
+                                </li>
+                            </ul>
+                        </Col>
+                    </Row>
                 </div>
                 {
                     showModal
