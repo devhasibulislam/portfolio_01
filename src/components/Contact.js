@@ -37,7 +37,9 @@ const Contact = () => {
     return (
         <Container fluid className="contact-section">
             <Title title={'Contact me'} />
-            <Container>
+            <Container
+                style={{height: "75vh"}}
+            >
                 <h1 className="project-heading">
                     Get me in <strong className="purple">Touch </strong>
                 </h1>
