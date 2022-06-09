@@ -597,6 +597,75 @@ button:focus {
 }
 
 /* --------- */
+/* Blog */
+/* --------- */
+
+.blog-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+
+}
+
+.wrapper h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.wrapper.dot {
+  color: #4FEBFE;
+  border-radius: 50%;
+}
+
+.wrapper p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+
+}
+
+/* --------- */
 /* About */
 /* --------- */
 
