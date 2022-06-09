@@ -1,17 +1,34 @@
 import React, { useState } from 'react';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Alert, Button, Col, Container, Form, Modal, Row } from 'react-bootstrap';
 import Particle from './Particle';
 import Title from './Title';
 import { AiOutlineFileDone } from "react-icons/ai";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
+    const [show, setShow] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
+        } else {
+            event.preventDefault();
+
+            emailjs.sendForm("service_dozo57k", "template_cn03kep", event.target, "zVtSQ7zi_vZn2K-mv")
+                .then((result) => {
+                    console.log(result.text);
+                    setShowModal(true);
+                    event.target.reset();
+                }, (error) => {
+                    console.log(error.text);
+                });
         }
 
         setValidated(true);
@@ -36,6 +53,7 @@ const Contact = () => {
                                     required
                                     type="text"
                                     placeholder="Enter your email"
+                                    name="email"
                                 />
                                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                                 <Form.Control.Feedback type="invalid" className='text-start'>
@@ -51,6 +69,7 @@ const Contact = () => {
                                     required
                                     type="text"
                                     placeholder="Enter your message"
+                                    name="message"
                                 />
                                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                                 <Form.Control.Feedback type="invalid" className='text-start'>
@@ -63,6 +82,7 @@ const Contact = () => {
                                 variant="primary"
                                 type="submit"
                                 style={{ maxWidth: "250px" }}
+                                onClick={handleShow}
                             >
                                 <AiOutlineFileDone />
                                 &nbsp;Submit
@@ -70,6 +90,24 @@ const Contact = () => {
                         </Row>
                     </Form>
                 </div>
+                {
+                    showModal
+                    &&
+                    <>
+                        <Modal show={show} onHide={handleClose}>
+                            <Alert variant="success" className="mb-0">
+                                <Alert.Heading>Message to <b>hasib143sl@gmail.com</b></Alert.Heading>
+                                <p>
+                                    Don't worry & Keep patience, you'll be replied soon. Keep eye on your mail box.
+                                </p>
+                                <hr />
+                                <p className="mb-0">
+                                    Have a nice moment. Contact with you soon, TYSM!
+                                </p>
+                            </Alert>
+                        </Modal>
+                    </>
+                }
             </Container>
             <Particle />
         </Container>
