@@ -13,7 +13,7 @@ const Blog = () => {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <div class="wrapper">
                         <h1 className='text-white'>coming soon<span class="text-info">.</span></h1>
-                        <p className='text-white'>We are building our website</p>
+                        <p className='text-white'>website is under construction</p>
                     </div>
                 </Row>
             </Container>
