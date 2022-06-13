@@ -12,8 +12,11 @@ const Blog = () => {
             <Container>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <div class="wrapper">
-                        <h1 className='text-white'>coming soon<span class="text-info">.</span></h1>
-                        <p className='text-white'>website is under construction</p>
+                        {/* <h1 className='text-white'>coming soon<span class="text-info">.</span></h1>
+                        <p className='text-white'>website is under construction</p> */}
+                        <img src="https://cdn.dribbble.com/users/553939/screenshots/3156301/coming-soon-dribbble.gif" alt="coming soon dribble"
+                            className='opacity-100 shadow-lg rounded-3'
+                        />
                     </div>
                 </Row>
             </Container>
