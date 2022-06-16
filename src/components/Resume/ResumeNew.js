@@ -10,7 +10,7 @@ import Title from "../Title";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/hasibulislam999/my-portfolio/master/src/Assets/Resume_Hasibul-Islam.pdf";
+  "https://raw.githubusercontent.com/hasibulislam999/my-portfolio/master/src/Assets/Resume_Hasibul-Islam.pdf?token=GHSAT0AAAAAABTLGUMGCBSHZHJE6THMEG3EYVLAH6A";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
