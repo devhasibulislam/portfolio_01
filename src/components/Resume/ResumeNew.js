@@ -27,8 +27,9 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            // href={pdf}
+            href={resumeLink}
+            // target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -52,8 +53,9 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            // href={pdf}
+            href={resumeLink}
+            // target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
