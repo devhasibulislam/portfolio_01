@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Resume_Hasibul-Islam.pdf";
+import pdf from "../../Assets/Resume_Hasibul-Islam.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -27,9 +27,8 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            // href={pdf}
-            href={resumeLink}
-            // target="_blank"
+            href={pdf}
+            target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -41,7 +40,7 @@ function ResumeNew() {
           {
             [1, 2]?.map((page, index) => <Document
               key={index + 1}
-              file={resumeLink}
+              file={pdf}
               className={`d-flex justify-content-center ${index === 0 && 'mb-3'}`}
               loading={`loading pdf page ${page}`}
             >
@@ -53,9 +52,8 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            // href={pdf}
-            href={resumeLink}
-            // target="_blank"
+            href={pdf}
+            target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
