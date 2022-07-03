@@ -40,5 +40,12 @@
         "title": "The Event",
         "description": "It's an event organizing or event insperation website. Which can obey an event and represent it's sweet and anguler options which although can retain the semantics of any location. Although it's a static website but retain an insperation to reserve as well as to conduct.",
         "link": "https://github.com/hasibulislam999/demo-theEvent"
+    },
+    {
+        "_id": 7,
+        "imgPath": "/projects/travel-guru.jpeg",
+        "title": "Travel Guru",
+        "description": "It's a travel management minimal website that not gonna used by professional. Although it is hobby testing site just figure out the functionality to convey with some intimated content with login feature with security that gonna stored in localStorage as a sense and conduct.",
+        "link": "https://github.com/hasibulislam999/travel-guru"
     }
 ]
