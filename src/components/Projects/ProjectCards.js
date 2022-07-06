@@ -9,12 +9,12 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img
         variant="top"
-        src={props.imgPath}
+        src={props?.imgPath}
         alt="card-img"
-        style={{
-          height: "500px",
-          objectFit: "cover"
-        }}
+        // style={{
+        //   height: "300px",
+        //   objectFit: "cover"
+        // }}
       />
       <Card.Body>
         <Card.Title><span className="purple">{props.title}</span></Card.Title>

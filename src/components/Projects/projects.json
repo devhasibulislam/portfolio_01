@@ -36,7 +36,7 @@
     },
     {
         "_id": 6,
-        "imgPath": "/projects/theEvent.png",
+        "imgPath": "/projects/the-event.png",
         "title": "The Event",
         "description": "It's an event organizing or event insperation website. Which can obey an event and represent it's sweet and anguler options which although can retain the semantics of any location. Although it's a static website but retain an insperation to reserve as well as to conduct.",
         "link": "https://github.com/hasibulislam999/demo-theEvent"
@@ -47,5 +47,12 @@
         "title": "Travel Guru",
         "description": "It's a travel management minimal website that not gonna used by professional. Although it is hobby testing site just figure out the functionality to convey with some intimated content with login feature with security that gonna stored in localStorage as a sense and conduct.",
         "link": "https://github.com/hasibulislam999/travel-guru"
+    },
+    {
+        "_id": 8,
+        "imgPath": "/projects/creative-agency.png",
+        "title": "Creative Agency",
+        "description": "It's an agency based website that calculate the agencies demonstration with respect to a colly. Here it contains admin and customer dashboard where at backend projection use little bit. Whole project is optimized based on speed and loading. In mean while it a substance now as the whole right.",
+        "link": "https://github.com/hasibulislam999/creative-agency-client"
     }
 ]
