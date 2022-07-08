@@ -54,5 +54,12 @@
         "title": "Creative Agency",
         "description": "It's an agency based website that calculate the agencies demonstration with respect to a colly. Here it contains admin and customer dashboard where at backend projection use little bit. Whole project is optimized based on speed and loading. In mean while it a substance now as the whole right.",
         "link": "https://github.com/hasibulislam999/creative-agency-client"
+    },
+    {
+        "_id": 9,
+        "imgPath": "/projects/logo-tech.jpg",
+        "title": "Logo Tech",
+        "description": "It's an inspirational website which contain some statistical approach that can reborn with a entity of surveiling. That is also a having of modal consuming of a matter of innersole as a probe of conformity. Contain login and register with forgot password approach meanwhile also included dynamic contact form.",
+        "link": "https://github.com/hasibulislam999/logo-tech"
     }
 ]
