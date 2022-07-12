@@ -61,5 +61,12 @@
         "title": "Logo Tech",
         "description": "It's an inspirational website which contain some statistical approach that can reborn with a entity of surveiling. That is also a having of modal consuming of a matter of innersole as a probe of conformity. Contain login and register with forgot password approach meanwhile also included dynamic contact form.",
         "link": "https://github.com/hasibulislam999/logo-tech"
+    },
+    {
+        "_id": 9,
+        "imgPath": "/projects/teacher-student-center.jpg",
+        "title": "TSC",
+        "description": "It's a full database website base on teacher student center. Which concludes an attendance type cemetery. That allows student to add notes like do in note app and also allows to do minimally for a teacher to add or remove student it seems like the admin controller but that can happen through user directly",
+        "link": "https://github.com/hasibulislam999/tsc-client"
     }
 ]
