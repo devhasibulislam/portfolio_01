@@ -63,10 +63,17 @@
         "link": "https://github.com/hasibulislam999/logo-tech"
     },
     {
-        "_id": 9,
+        "_id": 10,
         "imgPath": "/projects/teacher-student-center.jpg",
         "title": "TSC",
         "description": "It's a full database website base on teacher student center. Which concludes an attendance type cemetery. That allows student to add notes like do in note app and also allows to do minimally for a teacher to add or remove student it seems like the admin controller but that can happen through user directly",
         "link": "https://github.com/hasibulislam999/tsc-client"
+    },
+    {
+        "_id": 11,
+        "imgPath": "/projects/luxury-living.png",
+        "title": "Luxury Living",
+        "description": "First of all it's full stack project which conduct with variety of features. Known as luxury living with vast of creativity on luxury therefore we call it reinvent your luxury. Can oder or review that real time display our home page even which is direct to public so that they can also share with you other scheme.",
+        "link": "https://github.com/hasibulislam999/luxury-living-client"
     }
 ]
