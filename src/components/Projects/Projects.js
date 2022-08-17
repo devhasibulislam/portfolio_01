@@ -27,7 +27,7 @@ function Projects() {
                 description={project?.description}
                 link={project?.link}
               />
-            </Col>)
+            </Col>).reverse()
           }
         </Row>
       </Container>
