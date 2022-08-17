@@ -75,5 +75,12 @@
         "title": "Luxury Living",
         "description": "First of all it's full stack project which conduct with variety of features. Known as luxury living with vast of creativity on luxury therefore we call it reinvent your luxury. Can oder or review that real time display our home page even which is direct to public so that they can also share with you other scheme.",
         "link": "https://github.com/hasibulislam999/luxury-living-client"
+    },
+    {
+        "_id": 12,
+        "imgPath": "/projects/node-chat-app.png",
+        "title": "Node Chat Application",
+        "description": "Deprecated! Deprecated! Deprecated!A full stack project which is now deprecated. And not able to give other way support right now and not eligible to have best out of it. As a tough project it's technology getting old and wisher support getting deprecated therefore no running state on it.",
+        "link": "https://github.com/hasibulislam999/node-chat-application"
     }
 ]
